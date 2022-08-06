@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  background-color: #46FF00;
+  text-align: center;
+  padding: .5em 0;
+  margin-bottom: 1em;
+}
+
+input{
+  padding: .5em 1em;
+  margin: 1em;
+}
+
+button{
+  padding: .5em 1em;
+}
+
+input, button{
+  vertical-align: middle;
+}
+
+p{
+  display: inline;
+  text-align: center;
+}
+.item-container{
+  padding: 1em;
+  margin: .5em 1em;
+  background-color: #A5A5A5;
+  border-radius: 2px;
+}
+
+.feather-trash-2{
+  float: right;
+}
+
+#delete-btn{
+  float: right;
+}
+h3{
+  display: inline;
+}
+
