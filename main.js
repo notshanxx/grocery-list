@@ -24,12 +24,17 @@ function add(){
   
   createCheckBtn.src = "check.svg"
   createCheckBtn.setAttribute("id", "check-btn")
-  createCheckBtn.addEventListener('click', () => { createDiv.classList.toggle("checked")
+  createCheckBtn.addEventListener('click', () => {
+    createDiv.classList.toggle("checked")
   })
   
   createDeleteBtn.src = "trash-2.svg"
   createDeleteBtn.setAttribute("id", "delete-btn")
-  createDeleteBtn.addEventListener("click", () => createDeleteBtn.parentNode.remove() )
+  createDeleteBtn.addEventListener("click", () =>{ 
+    createDiv.style.animation = "deleteanimation .5s cubic-bezier(0.5,0.3,0.3,0.5)"
+    setTimeout((arg) => createDeleteBtn.parentNode.remove(), 500)
+    
+  })
   
   createH3.textContent = input.value
   //clear input
