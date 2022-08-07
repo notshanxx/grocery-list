@@ -7,6 +7,6 @@ A todo list with
 
 To do
  - Add save to local storage
- - Add animations
+ - Add animations ✓
  - add edit feature
 
