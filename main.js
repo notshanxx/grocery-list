@@ -24,8 +24,7 @@ function add(){
   
   createCheckBtn.src = "check.svg"
   createCheckBtn.setAttribute("id", "check-btn")
-  createCheckBtn.addEventListener('click', () => { createH3.classList.toggle("checked")
-    createDiv.style.opacity = ".5"
+  createCheckBtn.addEventListener('click', () => { createDiv.classList.toggle("checked")
   })
   
   createDeleteBtn.src = "trash-2.svg"
