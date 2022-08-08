@@ -11,7 +11,7 @@ saveBtn.addEventListener('click', function(){
 )
 
 document.addEventListener("keyup", ({key}) => {
-    if (key === "Enter") {
+    if (key === "Enter" && input.value) {
       add()
     }
 })
