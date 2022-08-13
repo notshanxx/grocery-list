@@ -1,5 +1,5 @@
-# todo-list
-A todo list with
+# Grocery list
+A grocery list with
  - Delete
  - Check
 
