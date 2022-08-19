@@ -10,11 +10,21 @@ saveBtn.addEventListener('click', function(){
 }
 )
 
+// Adding the list when clicked enter key
 document.addEventListener("keyup", ({key}) => {
     if (key === "Enter" && input.value) {
       add()
     }
 })
+
+
+
+// add the list
+// H3 = the list text
+// Div = the list items container
+// CheckBtn = the check button
+// Delete Btn = the delete button
+
 function add(){
   
   let createH3 = document.createElement("h3")
@@ -31,8 +41,15 @@ function add(){
   createDeleteBtn.src = "trash-2.svg"
   createDeleteBtn.setAttribute("id", "delete-btn")
   createDeleteBtn.addEventListener("click", () =>{ 
+    
+    
+    // Works like magic Delete the list on clicking delete btn
+    
     createDiv.style.animation = "deleteanimation .5s cubic-bezier(0.5,0.3,0.3,0.5)"
-    setTimeout((arg) => createDeleteBtn.parentNode.remove(), 500)
+    
+    // Delay .5s when deleting making animation first
+    
+    setTimeout(() => createDeleteBtn.parentNode.remove(), 500)
     
   })
   
