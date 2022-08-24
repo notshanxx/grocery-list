@@ -6,7 +6,7 @@ A grocery list with
 
 
 To do
- - Add save to local storage
+ - Add save to local storage ✓
  - Add animations ✓
  - add edit feature
 
