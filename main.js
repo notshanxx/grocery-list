@@ -130,7 +130,7 @@ function add(inputValue){
     
     // Delete the list on clicking delete btn
     
-    createDiv.style.animation = "deleteanimation 1s cubic-bezier(0.5,0.3,0.3,0.5)"
+    createDiv.style.animation = "deleteanimation .5s cubic-bezier(0.5,0.3,0.3,0.5)"
     
     // Delay .5s when deleting making animation first
     
